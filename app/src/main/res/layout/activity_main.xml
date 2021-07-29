@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="112dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="574dp"
+        android:layout_marginEnd="173dp"
+        android:gravity="bottom"
+        android:text="Detect Objcet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.126"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="274dp"
+        android:layout_height="310dp"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginEnd="93dp"
+        android:layout_marginBottom="222dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/ic_action_name"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="112dp"
+        android:layout_height="71dp"
+
+        android:layout_marginTop="574dp"
+        android:gravity="bottom"
+        android:text="Text Objcet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.946"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="112dp"
+        android:layout_height="71dp"
+
+        android:layout_marginTop="574dp"
+        android:gravity="bottom"
+        android:text="Face Detection"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.488" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="308dp"
+        android:layout_height="199dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="52dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="5dp"
+        android:scrollbars = "vertical"
+        android:textIsSelectable="true"
+
+        android:text="@string/textview"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btn"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
